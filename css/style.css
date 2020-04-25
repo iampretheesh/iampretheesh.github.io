@@ -1,0 +1,269 @@
+body {
+
+
+    padding: 0;
+    margin: 0;
+    color: #ffc3c3;
+    background-color: #092a27;
+    color: #000000;
+    background-color: #ffffff;
+
+}
+
+
+.header {
+
+        display: grid;
+        justify-content: flex-start;
+        align-items: flex-end;
+        border: none;
+        border-bottom: dashed 2px #000000;
+        height: 14vh;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-weight: 100;
+        font-size: 4vw;
+        font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+
+.story {
+
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(15,10vh);
+        grid-auto-flow: row;
+        grid-auto-rows: 10vh;
+        grid-gap: 1vh;
+        height: 74vh;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: none;
+        border-bottom: dashed 2px #000000;
+        overflow-y: auto;
+        font-family: 'Cutive Mono', monospace;
+
+}
+
+.work {
+
+        display: grid;
+        width: 100%;
+        grid-template-columns: 2fr 2fr 0.7fr 0.5fr;
+        grid-template-rows: 10vh;
+        height: 100%;
+        grid-gap: 1vw;
+        text-transform: uppercase;
+
+}
+
+#name,#tech {
+
+
+            display: grid;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+}
+
+
+
+#status,#view {
+
+
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+}
+
+
+
+.footer {
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 10vh;
+        font-size: 2vw;
+        font-family: 'Allerta Stencil', sans-serif;
+        font-weight: 100;
+}
+
+#email {
+
+    font-weight: 100;
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+
+a {
+        color: #000000;
+        text-decoration: none;
+
+}
+
+
+
+
+::-webkit-scrollbar-track
+{
+    background-color: var(--bgColor);
+}
+
+::-webkit-scrollbar
+{
+    width: 1px;
+    height: 10px;
+    background-color: var(--bgColor);
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: var(--bgColor);
+}
+
+
+
+@media (max-width: 576px) {
+
+
+
+.story {
+
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(15,10vh);
+        grid-auto-flow: row;
+        grid-auto-rows: 10vh;
+        grid-gap: 1vh;
+        height: 74vh;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: none;
+        border-bottom: dashed 2px #000000;
+        overflow-y: auto;
+        font-family: 'Cutive Mono', monospace;
+
+}
+
+.work {
+
+        display: grid;
+        width: 100%;
+        grid-template-columns: 70% 15% 10%;
+        grid-template-rows: 10vh;
+        height: 100%;
+        grid-gap: 1vw;
+        text-transform: uppercase;
+        font-size: 4.5vw;
+
+}
+
+#name {
+
+
+            display: grid;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+}
+
+
+#tech {
+
+        display: none;
+}
+
+
+
+#status,#view {
+
+
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+}
+
+
+.footer {
+
+
+        font-size: 4vw;
+}
+
+
+
+}
+
+
+
+@media (max-width: 700px) and (min-width: 576.98px) {
+
+
+
+
+.work {
+
+        display: grid;
+        width: 100%;
+        grid-template-columns: 70% 15% 10%;
+        grid-template-rows: 10vh;
+        height: 100%;
+        grid-gap: 1vw;
+        text-transform: uppercase;
+        font-size: 2.5vw;
+
+}
+
+#name {
+
+
+            display: grid;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+}
+
+
+#tech {
+
+        display: none;
+}
+
+
+
+#status,#view {
+
+
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+}
+
+
+.footer {
+
+
+        font-size: 2vw;
+}
+
+
+
+}

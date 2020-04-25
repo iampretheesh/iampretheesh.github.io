@@ -1,0 +1,3205 @@
+@font-face {
+
+  font-family: nowayout;
+
+  src: url('../fonts/noway-regular-webfont.ttf');
+
+}
+
+
+
+
+
+
+
+body{
+
+
+
+
+
+	/* --main-bg-color: #161922; 
+
+	 --text-line-color:#E91E63; 
+
+	*/
+
+	 --main-bg-color: #9f5143;
+
+    --text-line-color: #090023;
+
+
+
+	/* greenish text #81fec6 */
+
+	 background-color: var(--main-bg-color); 
+
+	 color: #fff;
+
+ 
+
+	/*font-family: 'Barlow Condensed', sans-serif !important;	
+
+
+
+	font-family: 'Lato', sans-serif !important;
+
+
+
+
+
+	font-family: 'Archivo Narrow', sans-serif;
+
+		
+
+
+
+
+
+	font-family: 'Space Mono', monospace;
+
+	*/
+
+
+
+
+
+	font-family: nowayout;
+
+
+
+
+
+
+
+	margin: 0;
+
+	padding: 0;
+
+	font-size: 3vw;
+
+    letter-spacing: 4px !important;
+
+    font-weight: lighter;
+
+  	box-sizing: border-box;
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.work-container {
+
+    -ms-overflow-style: none;  /* IE 10+ */
+
+    overflow: -moz-scrollbars-none;   /* Firefox */
+
+}
+
+.work-container::-webkit-scrollbar { 
+
+    display: none;  /* Safari and Chrome */
+
+}
+
+
+
+
+
+
+
+.love {
+
+
+
+
+
+					    display: grid;
+
+					    grid-template-columns: repeat(1,1fr);	
+
+						grid-template-rows: repeat(1,20vh);
+
+						float: left;
+
+	
+
+						width: 100%;
+
+					    font-weight: lighter !important;
+
+					    font-size: 15vh;
+
+						color: var(--text-line-color);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.in-grid {
+
+
+
+
+
+		display: flex;
+
+		grid-column: span 1;
+
+		justify-content: center;
+
+		align-items: center;
+
+
+
+}
+
+
+
+
+
+
+
+.intro-container {
+
+
+
+					display: flex;
+
+					float: left;
+
+					width: 90%;
+
+					height: auto;
+
+					flex-direction: column;
+
+					flex-wrap: wrap;
+
+					justify-content: space-around;
+
+					margin-left: 5%;
+
+					/*border-bottom: dotted 3px #1202ff;*/
+
+	
+
+}
+
+
+
+
+
+.intro-item1 {
+
+
+
+				display: flex;
+
+				flex-grow: 1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				line-height: 20vh;
+
+				flex-direction: row;
+
+				font-size: 5vw;
+
+
+
+}
+
+
+
+.intro-item2 {
+
+
+
+				display: flex;
+
+				flex-grow: 1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				line-height: 20vh;
+
+				flex-direction: row;
+
+				font-size: 4vw;
+
+
+
+}
+
+
+
+.intro-item3 {
+
+
+
+				display: flex;
+
+				flex-grow: 1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				line-height: 20vh;
+
+				flex-direction: row;
+
+				font-size: 4vw;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.about-container {
+
+
+
+					display: flex;
+
+					float: left;
+
+					width: 90%;
+
+					height: auto;
+
+					flex-direction: column;
+
+					flex-wrap: wrap;
+
+					font-size: 2.5vw;
+
+					justify-content: space-around;
+
+					margin-left: 5%;
+
+					color: #fff;
+
+				
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-title {
+
+
+
+				display: flex;
+
+				width: 100%;
+
+				align-items: center;
+
+				justify-content: center;
+
+			/*	height: 20vh;
+
+				color: #fff;
+
+				font-size: 9vw;
+
+				font-weight: bolder;
+
+			*/
+
+
+
+			    text-transform: uppercase;
+
+			    /* transform: rotate(-90deg); */
+
+			    height: 25vh;
+
+			    z-index: 1;
+
+			    font-size: 15vw;
+
+	  			color: var(--text-line-color);
+
+			    font-weight: 100 !important;
+
+			  	cursor: pointer;
+
+				
+
+
+
+
+
+}
+
+
+
+
+
+.flex-title-work {
+
+
+
+				display: flex;
+
+				float: left;
+
+				margin-left: 5%;
+
+				margin-right: 5%;
+
+				width: 90%;
+
+				align-items: center;
+
+				justify-content: center;
+
+				align-self: center;
+
+				justify-self: center;
+
+				/*height: 20vh;
+
+				color: #fff;
+
+				font-size: 9vw;
+
+				font-weight: bolder;
+
+			  	*/
+
+			    text-transform: uppercase;
+
+			    /* transform: rotate(-90deg); */
+
+			    height: 25vh;
+
+			    z-index: 1;
+
+			    font-size: 15vw;
+
+	  			color: var(--text-line-color);
+
+			    font-weight: 100 !important;
+
+
+
+			  	cursor: pointer;
+
+
+
+
+
+}
+
+
+
+.flex-title:hover,.flex-title-work:hover,.grid-title:hover,.flex-skill-title:hover {
+
+
+
+				color: var(--text-line-color);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#plain-yellow {
+
+
+
+    width: auto;
+
+    height: auto;
+
+    display: inline-block;
+
+    color: var(--text-line-color);
+
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+a {
+
+
+
+	text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.flex-skill-title {
+
+
+
+					display: flex;
+
+					width: 100%;
+
+					align-items: center;
+
+					/*height: 20vh;
+
+					color: #fff;
+
+					font-size: 9vw;
+
+					font-weight: bolder;
+
+				  	*/
+
+
+
+				    text-transform: uppercase;
+
+				    /* transform: rotate(-90deg); */
+
+				    height: 25vh;
+
+				    z-index: 1;
+
+				    font-size: 15vw;
+
+	  				color: var(--text-line-color);
+
+				    font-weight: 100 !important;
+
+
+
+				  	text-align: center;
+
+				  	flex-direction: row;
+
+				  	justify-content: center;
+
+				  	cursor: pointer;
+
+					
+
+
+
+}
+
+
+
+.flex-skill-item1 {
+
+
+
+			display: flex;
+
+			border: solid 1px;
+
+			height: 30%;
+
+			flex-direction: row;
+
+			justify-content: center;
+
+			align-items: center;
+
+
+
+}
+
+
+
+.flex-skill-item10 {
+
+
+
+			display: flex;
+
+			border: solid 1px;
+
+			height: 30%;
+
+			flex-direction: row;
+
+			justify-content: center;
+
+			align-items: center;				
+
+}
+
+
+
+.flex-skill-item2 {
+
+
+
+			display: flex;
+
+			border: solid 1px;
+
+			height: 50%;
+
+			flex-direction: row;
+
+			justify-content: center;
+
+			align-items: center;			
+
+}
+
+
+
+.flex-skill-item9 {
+
+
+
+			display: flex;
+
+			border: solid 1px;
+
+			height: 50%;
+
+			flex-direction: row;
+
+			justify-content: center;
+
+			align-items: center;				
+
+}
+
+
+
+
+
+.flex-skill-item3 {
+
+
+
+			display: flex;
+
+			border: solid 1px;
+
+			height: 60%;
+
+			flex-direction: row;
+
+			justify-content: center;
+
+			align-items: center;				
+
+}
+
+
+
+.flex-skill-item8 {
+
+
+
+			display: flex;
+
+			border: solid 1px;
+
+			height: 60%;
+
+			flex-direction: row;
+
+			justify-content: center;
+
+			align-items: center;				
+
+}
+
+
+
+
+
+.flex-skill-item4 {
+
+
+
+			display: flex;
+
+			border: solid 1px;
+
+			height: 70%;
+
+			flex-direction: row;
+
+			justify-content: center;
+
+			align-items: center;				
+
+}
+
+
+
+.flex-skill-item7 {
+
+
+
+			display: flex;
+
+			border: solid 1px;
+
+			height: 70%;
+
+			flex-direction: row;
+
+			justify-content: center;
+
+			align-items: center;				
+
+}
+
+
+
+.flex-skill-item {
+
+
+
+			display: flex;
+
+			border: solid 1px;
+
+			height: 75%;
+
+			flex-direction: row;
+
+			justify-content: center;
+
+			align-items: center;				
+
+}
+
+
+
+#rot-me {
+
+
+
+	 transform: rotate(-90deg);
+
+	 width: auto;
+
+	 height: auto;
+
+}
+
+
+
+.rot {
+
+
+
+		width: 6vw;
+
+		font-size: 3vw;
+
+	   /* background-color: var(--text-line-color);
+
+	    background-color: #fff;
+
+	   /* color: #1f1c1d; */
+
+	    border: solid 1px var(--text-line-color);
+
+	    color: #fff;
+
+
+
+	    font-weight: bolder;
+
+	    align-self: flex-end;
+
+	
+
+}
+
+
+
+
+
+.flex-tools-container {
+
+
+
+
+
+		display: flex;
+
+		flex-direction: row;
+
+		flex-wrap: wrap;
+
+		width: 90%;
+
+		margin-left: 5%;
+
+		justify-content: space-between;
+
+		height: 60vh;
+
+					/*border-bottom: dotted 3px #1202ff;*/
+
+		padding-bottom: 2vh;
+
+				
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+
+
+
+	border-bottom: 2px solid  var(--text-line-color);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid-contact-container {
+
+
+
+
+
+			display: grid;
+
+			grid-template-columns: repeat(1,1fr);
+
+			grid-template-rows: 70vh auto auto;
+
+			grid-gap: 10vh;
+
+			width: 80%;
+
+			margin-left: 10%;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid-contact-row-item {
+
+
+
+			display: grid;
+
+			grid-column: span 1;
+
+			grid-template-columns: 10% 90%;
+
+			grid-template-rows: 25vh 25vh 25vh;
+
+			grid-gap: 1vh;
+
+
+
+}
+
+
+
+
+
+#contact-item1{
+
+
+
+			display: flex;
+
+			justify-content: center;
+
+			align-items: center;
+
+			grid-column: 1/2;
+
+		    font-size: 4vw !important;
+
+		    letter-spacing: -0.3vw;
+
+			border-right: 1px solid var(--text-line-color);
+
+
+
+}
+
+
+
+
+
+#contact-item2{
+
+
+
+			display: flex;
+
+			justify-content: center;
+
+			align-items: center;
+
+			grid-column: 2/-1;
+
+			font-size: 4vw !important;
+
+
+
+}
+
+
+
+
+
+#contact-item2:hover, #contact-item1:hover{
+
+
+
+				
+
+				cursor: pointer;
+
+				color: var(--text-line-color);
+
+			
+
+}
+
+
+
+#shift {
+
+
+
+
+
+		transform: rotate(-90deg);
+
+
+
+}
+
+
+
+
+
+#bottom {
+
+
+
+    display: flex;
+
+    height: 10%;
+
+    align-items: center;
+
+    border-top: 1px solid var(--text-line-color);
+
+    border-bottom: 1px solid var(--text-line-color);
+
+    flex-grow: 1;
+
+    justify-content: space-evenly;
+
+    color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.flex-contact-item {
+
+
+
+			display: flex;
+
+			grid-column: 1/-1;
+
+			flex-direction: row;
+
+			flex-wrap: wrap;
+
+			align-items: center;
+
+			justify-content: space-evenly;
+
+}
+
+
+
+#flex2 {
+
+
+
+
+
+		display: flex;
+
+		flex-grow: 1;
+
+		align-items: flex-start;
+
+		justify-content: center;
+
+		font-weight: bolder;
+
+    	color: #fff;
+
+
+
+}
+
+
+
+#flex2:hover {
+
+
+
+
+
+	cursor: pointer;
+
+	color: var(--text-line-color);
+
+}
+
+
+
+.fab {
+
+
+
+
+
+    color: #fff;
+
+    cursor: pointer;
+
+    font-size: 25px;
+
+}
+
+
+
+
+
+.fab:hover {
+
+
+
+
+
+	cursor: pointer;
+
+	color: var(--text-line-color);
+
+}
+
+
+
+.fal {
+
+
+
+
+
+    color: var(--text-line-color);
+
+}
+
+
+
+
+
+
+
+.flex-contact-form-item {
+
+
+
+			display: grid;
+
+			float: left;
+
+			grid-column: span 1;
+
+			grid-template-columns: 1fr 1fr;
+
+			grid-template-rows: 6vh 6vh 25vh 9vh;
+
+			grid-gap: 5vh;
+
+}
+
+
+
+
+
+input[type=text],input[type=email],textarea {
+
+
+
+    	color: #fff;
+
+	    outline: none;
+
+	    outline-style: none;
+
+	    font-size: 3vh;
+
+	    border: none;
+
+	   	background-color: transparent;
+
+    	color: #fff;
+
+
+
+	    border-bottom: solid var(--text-line-color) 1px;
+
+
+
+		width: 100%;
+
+		height: 100%;
+
+  		resize: none;
+
+
+
+
+
+	font-family: nowayout;
+
+
+
+
+
+	margin: 0;
+
+	padding: 0;
+
+    letter-spacing: -1px !important;
+
+    font-weight: lighter;
+
+
+
+}
+
+
+
+.field1 {
+
+
+
+		display: flex;
+
+		grid-column: span 1;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.field2 {
+
+
+
+	display: flex;
+
+	grid-column: span 2;
+
+  
+
+
+
+}
+
+
+
+
+
+.field3 {
+
+
+
+
+
+	display: flex;
+
+	grid-column: span 2;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.field4 {
+
+
+
+
+
+		display: grid;
+
+		grid-column: span 2;
+
+    	align-items: center;
+
+
+
+}
+
+
+
+
+
+
+
+input[type=submit] {
+
+
+
+    	font-size: 3vw;
+
+		color: var(--main-bg-color);
+
+		background-color: var(--text-line-color);
+
+		font-weight: bolder;
+
+		border: none;
+
+		cursor: pointer;
+
+    	outline: none;
+
+    	width: 100%;
+
+		font-family: nowayout;
+
+
+
+}
+
+
+
+#yellow {
+
+
+
+	border-bottom: 0.5vw solid var(--text-line-color);
+
+    width: auto;
+
+    height: auto;
+
+    display: inline-block;
+
+    line-height: 5vh;
+
+    color: #fff;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+#source {
+
+
+
+	display: block;
+
+	width: 100%;
+
+	text-align: center;
+
+	float: left;
+
+	margin-top: 2.5vh;
+
+	font-size: 12px;
+
+	color: #fff !important;
+
+}
+
+
+
+#copy {
+
+
+
+	display: block;
+
+	width: 100%;
+
+	text-align: center;
+
+	float: left;
+
+	margin-top: 5vh;
+
+	font-size: 15px;
+
+	color: #fff !important;
+
+}
+
+
+
+
+
+::-webkit-scrollbar {
+
+    width: 5px;
+
+    max-height: 5px;
+
+}
+
+::-webkit-scrollbar-button {
+
+    background: none;
+
+}
+
+::-webkit-scrollbar-track-piece {
+
+    background: none;
+
+    height: 15px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+	  	background: var(--text-line-color);
+
+        width: 5px;
+
+    	height: 5px;
+
+}
+
+
+
+
+
+
+
+/* media queries below*/
+
+
+
+@media all and (min-width: 500px) {
+
+
+
+
+
+
+
+
+
+#header {
+
+
+
+			display: block;
+
+			float: left;
+
+			box-sizing: border-box;
+
+			position: fixed;
+
+			background-color: var(--main-bg-color);
+
+			width: 100%;
+
+			z-index: 2;
+
+			
+
+}
+
+
+
+
+
+
+
+.me {
+
+
+
+
+
+		display: block;
+
+		float: left;
+
+	    margin-left: 20%;
+
+	    margin-right: 20%;
+
+	    width: 60%;
+
+	    height: 80vh;
+
+		margin-top: 10vh;
+
+		margin-bottom: 5vh;
+
+    	background: linear-gradient(to right, rgba(57, 212, 220, 0.5), rgba(57, 212, 220, 0.5)), url("http://pretheeshpresannan.com/images/me12.jpg");	  	background-repeat: no-repeat;
+
+	  	background-size: cover;
+
+		border: var(--text-line-color) solid 1px;
+
+
+
+
+
+}
+
+
+
+
+
+.menu-container {
+
+
+
+
+
+				display: flex;
+
+				flex-direction: row;
+
+				float: left;
+
+
+
+				width: 80%;
+
+				height: 15vh;
+
+				margin-top: 2.5vh;
+
+				flex-wrap: wrap;
+
+				justify-content: space-around;
+
+				margin-left: 10%;
+
+
+
+		
+
+}
+
+
+
+
+
+
+
+#up-menu-item {
+
+
+
+
+
+			    display: flex;
+
+			    width: 30%;
+
+			    height: 45%;
+
+			    align-items: center;
+
+			    justify-content: center;
+
+			    cursor: pointer;
+
+			    font-weight: bold;
+
+				border: var(--text-line-color) solid 1px;
+
+			    font-size: 2vw;
+
+			   	align-self: flex-start;
+
+
+
+}
+
+
+
+
+
+#up-menu-item:hover, #down-menu-item:hover {
+
+
+
+
+
+	    background-color: var(--text-line-color);
+
+    	color: var(--main-bg-color);
+
+}
+
+
+
+
+
+#down-menu-item {
+
+
+
+
+
+			    display: flex;
+
+			    width: 30%;
+
+			    height: 45%;
+
+			    align-items: center;
+
+			    align-self: flex-end;
+
+			    justify-content: center;
+
+			    cursor: pointer;
+
+			    font-weight: bold;
+
+			    font-size: 2vw;
+
+				border: var(--text-line-color) solid 1px;
+
+
+
+}
+
+
+
+
+
+
+
+.about-item {
+
+
+
+				align-items: center;
+
+				justify-content: center;
+
+				line-height: 12vh;
+
+				width: 100%;
+
+				height: auto;
+
+					/*border-bottom: dotted 3px #1202ff;*/
+
+				flex-direction: column;
+
+				text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+.work-container {
+
+
+
+				display: grid;
+
+				float: left;
+
+				margin-left: 5%;
+
+				margin-right: 5%;
+
+				width: 90%;
+
+				grid-template-columns: repeat(2,50%);
+
+				grid-template-rows: repeat(3,80vh);
+
+				grid-row-gap: 10vh;
+
+				font-size: 5vw;
+
+				font-weight: bolder;
+
+				grid-gap-color:#fff;
+
+				padding-bottom: 2vh;
+
+				margin-top: 5vh;
+
+				/*height: 120vh;*/
+
+				/*overflow-y: scroll;*/
+
+				cursor-color: var(--text-line-color);
+
+				
+
+}
+
+
+
+.work-container:hover {
+
+
+
+   /* border-top: 1px dotted var(--text-line-color);
+
+    border-bottom: 1px dotted var(--text-line-color);
+
+	*/
+
+}
+
+
+
+
+
+#load {
+
+
+
+
+
+		float: left;
+
+		margin-top: 5vh;
+
+		font-size: 3vw;
+
+		display: grid;
+
+		justify-items: center;
+
+		align-items: center;
+
+		width: 100%;
+
+		grid-template-columns: 1fr;
+
+		grid-template-rows: 10vh;
+
+		color: #fff;
+
+		text-decoration: none;
+
+		cursor: pointer;
+
+
+
+}
+
+
+
+
+
+#loader {
+
+
+
+
+
+				border: solid 2px var(--text-line-color);
+
+				color: #fff;
+
+
+
+
+
+}
+
+
+
+#aused {
+
+
+
+		display: flex;
+
+		align-self: center;
+
+		justify-self:center;
+
+		align-items: center;
+
+		justify-content: center;
+
+		grid-column: 1/2;
+
+		float: left;
+
+		font-size: 4vw !important;
+
+		color: var(--text-line-color);
+
+}
+
+
+
+
+
+#bused {
+
+
+
+		display: flex;
+
+		align-self: center;
+
+		justify-self:center;
+
+		align-items: center;
+
+		justify-content: center;
+
+		grid-column: 2/-1;
+
+		font-size: 4vw !important;
+
+		color: var(--text-line-color);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.work-item1 {
+
+
+
+				display: flex;
+
+    			background-color: grey;
+
+    			background: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(0, 0, 128, 0.5)), url("http://pretheeshpresannan.com/images/work-1.png");
+
+				background-size: 100% 100%;
+
+    			color: navy;				
+
+    			grid-column: 1/2;
+
+				align-items: center;
+
+				justify-content: center;
+
+				height: 80vh;
+
+				cursor: pointer;
+
+				border: solid 0.5vw #fff;				
+
+}
+
+
+
+.work-item1:hover {
+
+
+
+
+
+    			background: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(0, 0, 128, 0.5)), url("");				
+
+				
+
+}
+
+
+
+
+
+.work-item2 {
+
+
+
+				display: flex;
+
+				background: linear-gradient(to right, rgba(27, 44, 70, 0.45), rgba(142, 12, 12, 0.55)), url("http://pretheeshpresannan.com/images/work-6.png");
+
+				background-size: 100% 100%;
+
+				color: #03f4e0;
+
+    			grid-column: 2/-1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				height: 80vh;
+
+				border: solid 0.5vw #fff;				
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item2:hover {
+
+
+
+
+
+				background: linear-gradient(to right, rgba(27, 44, 70, 0.45), rgba(142, 12, 12, 0.55)), url("");
+
+				
+
+}
+
+
+
+.work-item3 {
+
+
+
+				display: flex;
+
+				background: linear-gradient(to right, rgba(47, 47, 47, 0.5), rgba(14, 68, 134, 0.5)), url("http://pretheeshpresannan.com/images/work-3.png");
+
+				background-size: 100% 100%;
+
+				color: #00b8ff;
+
+    			grid-column: 1/2;
+
+				align-items: center;
+
+				justify-content: center;
+
+				height: 80vh;
+
+				border: solid 0.5vw #fff;				
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item3:hover {
+
+
+
+
+
+				background: linear-gradient(to right, rgba(47, 47, 47, 0.5), rgba(14, 68, 134, 0.5)), url("");
+
+				
+
+}
+
+
+
+
+
+.work-item4 {
+
+
+
+				display: flex;
+
+				background: linear-gradient(to right, rgba(253, 169, 189, 0.5), rgba(3, 4, 14, 0.5)), url("http://pretheeshpresannan.com/images/work-4.png");
+
+				background-size: 100% 100%;
+
+				color: #03040e;
+
+    			grid-column: 2/-1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				height: 80vh;
+
+				border: solid 0.5vw #fff;				
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item4:hover {
+
+
+
+
+
+				background: linear-gradient(to right, rgba(253, 169, 189, 0.5), rgba(3, 4, 14, 0.5)), url("");
+
+				
+
+}
+
+
+
+
+
+
+
+.work-item5 {
+
+
+
+				display: flex;
+
+				background: linear-gradient(to right, rgba(49, 47, 56, 0.5), rgba(158, 222, 157, 0.5)), url("http://pretheeshpresannan.com/images/work-5.png");
+
+				background-size: cover;
+
+				color: #312f38;				
+
+    			grid-column: 1/2;
+
+				align-items: center;
+
+				justify-content: center;
+
+				height: 80vh;
+
+				border: solid 0.5vw #fff;				
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item5:hover {
+
+
+
+
+
+				background: linear-gradient(to right, rgba(49, 47, 56, 0.5), rgba(158, 222, 157, 0.5)), url("");
+
+				
+
+}
+
+
+
+
+
+
+
+.work-item6 {
+
+
+
+				display: flex;
+
+				background: linear-gradient(to right, rgba(49, 47, 56, 0.5), rgba(158, 222, 157, 0.5)), url("http://pretheeshpresannan.com/images/work-2.png");
+
+				background-size: 100% 100%;
+
+				color: #03040e;
+
+    			grid-column: 2/-1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				height: 80vh;
+
+				border: solid 0.5vw #fff;				
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item6:hover {
+
+
+
+
+
+				background: linear-gradient(to right, rgba(49, 47, 56, 0.5), rgba(3, 244, 224, 0.48)), url("");
+
+				
+
+}
+
+
+
+
+
+
+
+#over {
+
+
+
+
+
+				display: flex;
+
+				transform: rotate(0deg);
+
+				color: #FFF;
+
+				background-color: rgba(255, 248, 12, 0.1);
+
+				z-index: 1;
+
+				align-self: center;
+
+				justify-self: center;
+
+    			letter-spacing: 1.25vw !important;
+
+				transform: rotate(-45deg);
+
+			    text-decoration: underline;
+
+			    text-decoration-color: var(--text-line-color);
+
+}
+
+
+
+
+
+
+
+#rotated {
+
+
+
+
+
+				transform: rotate(-180deg);
+
+				width: auto;
+
+				height: 100%;
+
+}
+
+
+
+
+
+#rotated1 {
+
+
+
+
+
+				transform: rotate(-180deg);
+
+				height: auto;
+
+				width: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid-title {
+
+
+
+				display: grid;
+
+				align-items: center;
+
+				justify-content: center;
+
+				color: #fff;
+
+				font-size: 9vw;
+
+				font-weight: bolder;
+
+				grid-area: z;
+
+				cursor: pointer;
+
+
+
+					
+
+	}
+
+
+
+
+
+.flex-skill-container {
+
+
+
+				float: left;
+
+				display: flex;
+
+				flex-direction: row;
+
+				justify-content: space-between;
+
+				width: 90%;
+
+				margin-left: 5%;
+
+				flex-wrap: wrap;
+
+				height: 100vh;
+
+					/*border-bottom: dotted 3px #1202ff;*/
+
+				align-items: center;
+
+				font-weight: bolder;
+
+				padding-bottom: 2vh;
+
+				color: var(--main-bg-color);
+
+
+
+}
+
+
+
+
+
+.rot:hover {
+
+
+
+
+
+	    background-color: var(--text-line-color);
+
+    	color: var(--main-bg-color);
+
+    	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+.flex-tools-item {
+
+
+
+			display: flex;
+
+			flex-direction: column;
+
+			align-items: center;
+
+			justify-content: center;
+
+			align-self: center;
+
+			height: 40vh;
+
+			width: auto;
+
+			flex-grow: 1;
+
+			font-size: 2vw;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* for mobiles code below */
+
+@media all and (max-width: 500px) {
+
+
+
+
+
+
+
+#header {
+
+
+
+			display: block;
+
+			float: left;
+
+			box-sizing: border-box;
+
+			position: fixed;
+
+			background-color: var(--main-bg-color);
+
+			width: 100%;
+
+			z-index: 2;
+
+
+
+}
+
+
+
+
+
+
+
+.me {
+
+
+
+
+
+		display: block;
+
+		float: left;
+
+	    margin-left: 20%;
+
+	    width: 60%;
+
+	    height: 30vh;
+
+		margin-top: 10vh;
+
+		margin-bottom: 5vh;
+
+    	background: linear-gradient(to right, rgba(57, 212, 220, 0.5), rgba(57, 212, 220, 0.5)), url("http://pretheeshpresannan.com/images/me12.jpg");	  	background-repeat: no-repeat;
+
+	  	background-size: cover;
+
+		border: var(--text-line-color) solid 1px;
+
+
+
+}
+
+
+
+
+
+.menu-container {
+
+
+
+
+
+				display: flex;
+
+				flex-direction: row;
+
+				float: left;
+
+
+
+				width: 80%;
+
+				height: 15vh;
+
+				margin-top: 2.5vh;
+
+				flex-wrap: wrap;
+
+				justify-content: space-around;
+
+				margin-left: 10%;
+
+
+
+		
+
+}
+
+
+
+
+
+
+
+#up-menu-item {
+
+
+
+
+
+			    display: flex;
+
+			    width: 30%;
+
+			    height: 45%;
+
+			    align-items: center;
+
+			    justify-content: center;
+
+			    cursor: pointer;
+
+			    font-weight: bold;
+
+				border: var(--text-line-color) solid 1px;
+
+			    font-size: 3.5vw;
+
+			   	align-self: flex-start;
+
+
+
+}
+
+
+
+
+
+#up-menu-item:hover, #down-menu-item:hover {
+
+
+
+
+
+	    background-color: var(--text-line-color);
+
+    	color: var(--main-bg-color);
+
+}
+
+
+
+
+
+#down-menu-item {
+
+
+
+
+
+			    display: flex;
+
+			    width: 30%;
+
+			    height: 45%;
+
+			    align-items: center;
+
+			    justify-content: center;
+
+			    cursor: pointer;
+
+			    font-weight: bold;
+
+			    font-size: 3.5vw;
+
+				border: var(--text-line-color) solid 1px;
+
+			   	align-self: flex-end;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.about-item {
+
+    align-items: center;
+
+    justify-content: center;
+
+    line-height: 9vh;
+
+    width: 100%;
+
+    height: auto;
+
+    /* border-bottom: dotted 3px #1202ff; */
+
+    flex-direction: column;
+
+    font-size: 4vw !important;
+
+    text-align: justify;
+
+
+
+}
+
+
+
+
+
+.work-container {
+
+
+
+				display: grid;
+
+				float: left;
+
+				margin-left: 5%;
+
+				margin-right: 5%;
+
+				width: 90%;
+
+				grid-template-columns: repeat(1,1fr);
+
+				grid-template-rows: repeat(3,50vh);
+
+				grid-row-gap: 2vh;
+
+				font-size: 5vw;
+
+				font-weight: bolder;
+
+				grid-gap-color:#fff;
+
+				padding-bottom: 2vh;
+
+
+
+
+
+}
+
+
+
+.work-container:hover {
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+#load {
+
+
+
+
+
+		float: left;
+
+		margin-top: 5vh;
+
+		font-size: 3vw;
+
+		display: grid;
+
+		justify-items: center;
+
+		align-items: center;
+
+		width: 100%;
+
+		grid-template-columns: 1fr;
+
+		grid-template-rows: 10vh;
+
+		color: #fff;
+
+		text-decoration: none;
+
+		cursor: pointer;
+
+
+
+}
+
+
+
+
+
+#loader {
+
+
+
+
+
+				border: solid 2px var(--text-line-color);
+
+				color: #fff;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#aused {
+
+
+
+		display: none;
+
+		
+
+}
+
+
+
+
+
+#bused {
+
+
+
+		display: none;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+#over {
+
+
+
+
+
+				transform: rotate(0deg);
+
+				color: #FFF;
+
+				background-color: rgba(255, 248, 12, 0.1);
+
+				z-index: 1;
+
+}
+
+
+
+
+
+
+
+#rotated {
+
+
+
+
+
+				transform: rotate(-180deg);
+
+				width: auto;
+
+				height: 100%;
+
+}
+
+
+
+
+
+#rotated1 {
+
+
+
+
+
+				transform: rotate(-180deg);
+
+				height: auto;
+
+				width: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid-title {
+
+
+
+				display: grid;
+
+				align-items: center;
+
+				justify-content: center;
+
+				color: #fff;
+
+				font-size: 9vw;
+
+				font-weight: bolder;
+
+				grid-column: span 1;
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item1 {
+
+
+
+				display: grid;
+
+    			background-color: grey;
+
+    			background: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(0, 0, 128, 0.5)), url("http://pretheeshpresannan.com/images/work-1.png");
+
+				background-size: 100% 100%;
+
+    			color: navy;				
+
+    			grid-column: span 1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				cursor: pointer;
+
+				border: solid 0.5vw var(--text-line-color);				
+
+}
+
+
+
+.work-item1:hover {
+
+
+
+
+
+    		/*	background-color: #1202ff; */
+
+    			background: linear-gradient(to right, rgba(128, 128, 128, 0.5), rgba(0, 0, 128, 0.5)), url("");				
+
+				
+
+}
+
+
+
+
+
+.work-item2 {
+
+
+
+				display: grid;
+
+				background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(3, 244, 224, 0.5)), url("http://pretheeshpresannan.com/images/work-6.png");
+
+				background-size: 100% 100%;
+
+				color: #03f4e0;
+
+    			grid-column: span 1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				border: solid 0.5vw var(--text-line-color);				
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item2:hover {
+
+
+
+
+
+    		/*	background-color: #1202ff; */
+
+				background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(3, 244, 224, 0.5)), url("");
+
+				
+
+}
+
+
+
+.work-item3 {
+
+
+
+				display: grid;
+
+				background: linear-gradient(to right, rgba(47, 47, 47, 0.5), rgba(14, 68, 134, 0.5)), url("http://pretheeshpresannan.com/images/work-3.png");
+
+				background-size: 100% 100%;
+
+				color: #00b8ff;
+
+    			grid-column: span 1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				border: solid 0.5vw var(--text-line-color);				
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item3:hover {
+
+
+
+
+
+    		/*	background-color: #1202ff; */
+
+				background: linear-gradient(to right, rgba(47, 47, 47, 0.5), rgba(14, 68, 134, 0.5)), url("");
+
+				
+
+}
+
+
+
+
+
+.work-item4 {
+
+
+
+				display: grid;
+
+				background: linear-gradient(to right, rgba(253, 169, 189, 0.5), rgba(3, 4, 14, 0.5)), url("http://pretheeshpresannan.com/images/work-4.png");
+
+				background-size: 100% 100%;
+
+				color: #03040e;
+
+    			grid-column: span 1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				border: solid 0.5vw var(--text-line-color);				
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item4:hover {
+
+
+
+
+
+    		/*	background-color: #1202ff; */
+
+				background: linear-gradient(to right, rgba(253, 169, 189, 0.5), rgba(3, 4, 14, 0.5)), url("");
+
+				
+
+}
+
+
+
+
+
+
+
+.work-item5 {
+
+
+
+				display: grid;
+
+				background: linear-gradient(to right, rgba(49, 47, 56, 0.5), rgba(158, 222, 157, 0.5)), url("http://pretheeshpresannan.com/images/work-5.png");
+
+				background-size: cover;
+
+				color: #312f38;				
+
+    			grid-column: span 1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				border: solid 0.5vw var(--text-line-color);				
+
+				cursor: pointer;
+
+
+
+}
+
+
+
+
+
+.work-item5:hover {
+
+
+
+
+
+    		/*	background-color: #1202ff; */
+
+				background: linear-gradient(to right, rgba(49, 47, 56, 0.5), rgba(158, 222, 157, 0.5)), url("");
+
+				
+
+}
+
+
+
+
+
+.work-item6 {
+
+
+
+				display: flex;
+
+				background: linear-gradient(to right, rgba(49, 47, 56, 0.5), rgba(158, 222, 157, 0.5)), url("http://pretheeshpresannan.com/images/work-2.png");
+
+				background-size: 100% 100%;
+
+				color: #03040e;
+
+    			grid-column: span 1;
+
+				align-items: center;
+
+				justify-content: center;
+
+				border: solid 0.5vw var(--text-line-color);				
+
+				cursor: pointer;
+
+}
+
+
+
+
+
+.work-item6:hover {
+
+
+
+
+
+				background: linear-gradient(to right, rgba(49, 47, 56, 0.5), rgba(3, 244, 224, 0.48)), url("");
+
+				
+
+}
+
+
+
+
+
+
+
+.flex-skill-container {
+
+
+
+				float: left;
+
+				display: flex;
+
+				flex-direction: row;
+
+				justify-content: space-between;
+
+				width: 90%;
+
+				margin-left: 5%;
+
+				flex-wrap: wrap;
+
+				height: 75vh;
+
+				align-items: center;
+
+				font-weight: bolder;
+
+				padding-bottom: 2vh;
+
+				color: var(--main-bg-color);
+
+
+
+}
+
+
+
+
+
+.rot:hover {
+
+
+
+
+
+	    background-color: var(--text-line-color);
+
+    	color: var(--main-bg-color);
+
+    	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+#tool {
+
+
+
+
+
+margin-top: 20vh;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.flex-tools-item {
+
+
+
+			display: flex;
+
+			flex-direction: column;
+
+			align-items: center;
+
+			align-self: center;
+
+			height: 20vh;
+
+			width: 50%;
+
+			font-size: 3.25vw;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
